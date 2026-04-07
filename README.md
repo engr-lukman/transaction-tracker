@@ -9,8 +9,8 @@ Production-ready monorepo for a real-time transaction dashboard.
 
 ## Documentation
 
-- [Client Guide](client/CLIENT.md)
-- [Server Guide](server/SERVER.md)
+- [Client Guide](client/README.md)
+- [Server Guide](server/README.md)
 
 ## Quick Start
 

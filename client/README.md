@@ -1,10 +1,10 @@
-# Transaction Tracker Client
+# Client Documentation
 
 Vue 3 (Composition API) frontend with Vite, Tailwind CSS 4, and Socket.io real-time synchronization.
 
 ## Architecture
 
-The client follows**industry-standard layered architecture** with clear separation of concerns:
+The client follows **industry-standard layered architecture** with clear separation of concerns:
 
 ```
 src/
@@ -245,15 +245,3 @@ VITE_SERVER_URL=http://localhost:3001
   "createdAt": "ISO 8601 timestamp"
 }
 ```
-
-## Best Practices Applied
-
-- ✅ **Separation of Concerns**: Config, services, composables, components clearly separated
-- ✅ **Composable Reusability**: useTransactionForm, useTransactionList can be used in other components
-- ✅ **Type Safety**: Props and emits properly defined with TypeScript comments
-- ✅ **Responsive Design**: Mobile-first Tailwind CSS with semantic breakpoints
-- ✅ **Error Handling**: Try-catch blocks, user-friendly error messages
-- ✅ **Performance**: Socket listener deduplication, animation optimization with TransitionGroup
-- ✅ **Maintainability**: Consistent file structure, clear naming, JSDoc comments
-
----
